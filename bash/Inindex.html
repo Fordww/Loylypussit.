@@ -1,0 +1,41 @@
+cat > index.html <<EOF
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Löylypussit</title>
+        <style>
+            body {
+                  font-family: sans-serif;
+                        display: flex;
+                              flex-direction: column;
+                                    align-items: center;
+                                          justify-content: center;
+                                                height: 100vh;
+                                                      background: #f3f3f3;
+                                                          }
+                                                              h1 {
+                                                                    margin-bottom: 1rem;
+                                                                        }
+                                                                            button {
+                                                                                  padding: 1rem 2rem;
+                                                                                        font-size: 1rem;
+                                                                                              background-color: #228B22;
+                                                                                                    color: white;
+                                                                                                          border: none;
+                                                                                                                border-radius: 8px;
+                                                                                                                      cursor: pointer;
+                                                                                                                          }
+                                                                                                                              button:hover {
+                                                                                                                                    background-color: #1e7a1e;
+                                                                                                                                        }
+                                                                                                                                          </style>
+                                                                                                                                          </head>
+                                                                                                                                          <body>
+                                                                                                                                            <h1>Osta koivulehtipussi</h1>
+                                                                                                                                              <button id="buy-button">Osta nyt</button>
+                                                                                                                                                <script src="client.js"></script>
+                                                                                                                                                </body>
+                                                                                                                                                </html>
+                                                                                                                                                EOF
